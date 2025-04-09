@@ -1,5 +1,6 @@
 body{
     background-color: #141530;
+    color: white; 
 }
 
 body h1 {
@@ -12,22 +13,25 @@ body h1 {
     color: white;
     font-weight: bold;
 }
-
-p {
-    font-size: 25px;
-    color: white;
-    font-weight: bold;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+  
+.icon{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    gap: 80px;
+}   
+ 
+.icon2{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
 }
 
-body section form{
+p{
+    font-weight: bold;
+    height: 25px;
+}
+ 
+body form{
     display:flex;
     text-align: left;
     flex-direction:column;
@@ -35,22 +39,36 @@ body section form{
     gap: 10px;
     width: 300px;
 }
-
-body section #em{
+ 
+body #em{
     height: 25px;
     border: none;
     font-weight: bold;
     border-radius: 20px;
 }
 
-body section #pas{
+body #ps{
     height: 25px;
     border: none;
     font-weight: bold;
     border-radius: 20px;
 }
 
-body section #log{
+body #su{
+    height: 25px;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+body #my{
+    height: 25px;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+body #btn{
     width: 100px;
     height: 35px;
     border: none;
@@ -61,7 +79,13 @@ body section #log{
     font-weight: bold;
 }
 
-.content {
+.form p{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.form {
     border-radius: 10px;        
     background: #3b3c58;       
     max-width: 400px;         
