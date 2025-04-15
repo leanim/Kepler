@@ -8,7 +8,6 @@ body h1 {
     justify-content: center;
     height: 200px;
     margin: auto;
-    margin-bottom: 50px;
     color: white;
     font-weight: bold;
 }
@@ -31,7 +30,7 @@ body section form{
     display:flex;
     text-align: left;
     flex-direction:column;
-    margin: 60px auto;
+    margin: auto;
     gap: 10px;
     width: 300px;
 }
@@ -66,5 +65,5 @@ body section #log{
     background: #3b3c58;       
     max-width: 400px;         
     margin: auto;         
-    padding-bottom: 0.1px;
+    padding-bottom: 30px;
 }

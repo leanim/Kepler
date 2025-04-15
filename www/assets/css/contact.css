@@ -9,21 +9,8 @@ body h1 {
     justify-content: center;
     height: 200px;
     margin: auto;
-    margin-bottom: 50px;
     color: white;
     font-weight: bold;
-}
-  
-.icon{
-    display: flex;
-    justify-content: space-between;
-    gap: 80px;
-}   
- 
-.icon2{
-    display: flex;
-    justify-content: center;
-    margin: 20px auto;
 }
 
 p{
@@ -35,7 +22,7 @@ body form{
     display:flex;
     text-align: left;
     flex-direction:column;
-    margin: 60px auto;
+    margin: auto;
     gap: 10px;
     width: 300px;
 }
@@ -91,4 +78,5 @@ body #btn{
     max-width: 400px;         
     margin: auto;         
     padding-bottom: 0.1px;
+    padding-bottom: 30px;
 }
