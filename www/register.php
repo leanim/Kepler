@@ -1,14 +1,33 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/register.css">
+
+    <title>Registration</title>
 </head>    
 <body>
 
     <section>
+    <div class="intro">
         <h1>REGISTRATION</h1> 
+        
+        <?php
+        if (isset($_SESSION['error'])) { 
+            echo '<div class="error">' . htmlspecialchars($_SESSION['error']) . '</div>'; 
+            unset($_SESSION['error']);
+        } elseif (isset($_SESSION['success'])) {
+            echo '<div class="success">' . htmlspecialchars($_SESSION['success']) . '</div>'; 
+            unset($_SESSION['success']); 
+        }
+        ?>
+
+    </div>
 
         <div class="content">
         <form method="POST" action="checkRegister.php">

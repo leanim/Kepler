@@ -10,9 +10,9 @@
 
 <body>
 <header>
-    <a href="index.html">Home</a>
+    <a href="index.php">Home</a>
     <a href="#contact">Contact</a>
-    <a href="login.html">Login</a>
+    <a href="login.php">Login</a>
 </header>
 
     <div class="center">

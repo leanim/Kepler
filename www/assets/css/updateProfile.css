@@ -23,44 +23,46 @@ body{
     color: white;
 }
 
+.acc {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.usern, .pic {
+    border-radius: 10px;         
+    background: #3b3c58;      
+    width: 80%;          
+    margin: 0 auto;        
+    padding: 30px;
+}
+
 p {
     font-size: 25px;
     color: white;
     font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
+.usern #user{
+    height: 25px;
+    border: none;
     font-weight: bold;
-    display: flex;
-    justify-content: flex-end;
+    border-radius: 20px;
 }
 
 body section form{
     display:flex;
-    text-align: left;
     flex-direction:column;
     margin: auto;
     gap: 10px;
     width: 300px;
 }
 
-body section #em{
-    height: 25px;
-    border: none;
-    font-weight: bold;
-    border-radius: 20px;
-}
-
-body section #pas{
-    height: 25px;
-    border: none;
-    font-weight: bold;
-    border-radius: 20px;
-}
-
-body section #log{
+body section #conf, .button {
     width: 100px;
     height: 35px;
     border: none;
@@ -71,10 +73,31 @@ body section #log{
     font-weight: bold;
 }
 
-.content {
-    border-radius: 10px;        
-    background: #3b3c58;       
-    max-width: 400px;         
-    margin: auto;         
-    padding-bottom: 30px;
+body section .btn {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    background-color: #496C99;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    align-self: center;
 }
+
+input[type="file"] {
+    margin-bottom: 20px;
+    width: 100%;
+    color: white;
+}
+
+img {
+    object-fit: cover; 
+}
+
+.pic label {
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}
+

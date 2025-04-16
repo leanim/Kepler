@@ -2,15 +2,25 @@ body{
     background-color: #141530;
 }
 
-body h1 {
+.intro {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 200px;
-    margin: auto;
-    margin-bottom: 50px;
+    margin: 0 auto;
     color: white;
-    font-weight: bold;
+    padding-bottom: 0; 
+}
+
+.error {
+    padding-top: 15px;
+    color: white;
+}
+
+.success {
+    padding-top: 15px;
+    color: white;
 }
 
 p {
@@ -22,7 +32,7 @@ p {
 body section form{
     display:flex;
     flex-direction:column;
-    margin: 60px auto;
+    margin: auto;
     gap: 10px;
     width: 300px;
 }
@@ -71,5 +81,5 @@ body section #res{
     background: #3b3c58;      
     max-width: 400px;          
     margin: auto;        
-    padding-bottom: 0.1px;
+    padding-bottom: 30px;
 }
