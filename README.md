@@ -14,3 +14,8 @@ Ce projet a pour objectif d'informer, d'éduquer et de stimuler l'intérêt des 
 - Javascript : Fonctionnalités interactives
 - PHP : Logique côté serveur
 - SQL : Base de données
+
+## 📊 Données publiques utilisées :
+
+- https://api.le-systeme-solaire.net/rest/bodies/?filter[]=isPlanet,eq,true
+- https://eclipse.gsfc.nasa.gov/solar.html
