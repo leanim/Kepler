@@ -1,7 +1,7 @@
 <?php
 require_once 'database.php';
 $db = Database::getInstance()->getConnection();
-$search = $_GET[''q] ?? '';
+$search = $_GET['q'] ?? '';
 
 $stmt = $db->prepare("SELECT * FROM planets WHERE name LIKE ?");
 $stmt->execute(["%$search%"]);

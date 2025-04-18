@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "Which space telescope discovered thousands of exoplanets by observing transits?",
+        question: "1. Which space telescope discovered thousands of exoplanets by observing transits?",
         answer: [
             {text: "Gaia (ESA)", correct: false},
             {text: "Kepler (NASA)", correct: true},
@@ -9,7 +9,7 @@ const questions = [
         ]
     },
     {
-        question: "What kind of stellar event results in a powerful explosion when a star dies?",
+        question: "2. What kind of stellar event results in a powerful explosion when a star dies?",
         answer: [
             {text: "A nova", correct: false},
             {text: "A red giant", correct: false},
@@ -18,7 +18,7 @@ const questions = [
         ]
     },
     {
-        question: "Why do we call some constellations by names like Orion or Ursa Major?",
+        question: "3. Why do we call some constellations by names like Orion or Ursa Major?",
         answer: [
             {text: "Ancient civilizations imagined shapes in the stars", correct: true},
             {text: "They were discovered recently by NASA", correct: false},
@@ -27,7 +27,7 @@ const questions = [
         ]
     },
     {
-        question: " What is the Kuiper Belt?",
+        question: "4. What is the Kuiper Belt?",
         answer: [
             {text: "A band of stars around the Milky Way", correct: false},
             {text: " A region of icy objects beyond Neptune ", correct: true},
@@ -36,7 +36,7 @@ const questions = [
         ]
     },
     {
-        question: "In space or radio communication, when someone says “Do you copy?”, what are they actually checking?",
+        question: "5. In space or radio communication, when someone says “Do you copy?”, what are they actually checking?",
         answer: [
             {text: "If the message was recorded for later", correct: false},
             {text: "If the other person is ready to speak", correct: false},
@@ -45,7 +45,7 @@ const questions = [
         ]
     },
     {
-        question: " What is the “galactic cannibalism” theory?",
+        question: "6. What is the “galactic cannibalism” theory?",
         answer: [
             {text: "A theory explaining why galaxies in clusters move faster than expected", correct: false},
             {text: "A theory that galaxies swap stars with each other", correct: false},
@@ -54,7 +54,7 @@ const questions = [
         ]
     },
     {
-        question: "What would happen if you fell into a black hole?",
+        question: "7. What would happen if you fell into a black hole?",
         answer: [
             {text: "You’d be teleported to another galaxy", correct: false},
             {text: "You’d turn into a star", correct: false},
@@ -63,7 +63,7 @@ const questions = [
         ]
     },
     {
-        question: "What’s the name of the biggest star astronomers have ever found?",
+        question: "8. What’s the name of the biggest star astronomers have ever found?",
         answer: [
             {text: "Sirius A", correct: false},
             {text: "Betelgeuse", correct: false},
@@ -72,7 +72,7 @@ const questions = [
         ]
     },
     {
-        question: "In ancient Roman mythology, who was the goddess of the Moon, often associated with hunting and the wild?",
+        question: "9. In ancient Roman mythology, who was the goddess of the Moon, often associated with hunting and the wild?",
         answer: [
             {text: "Venus", correct: false},
             {text: "Diana", correct: true},
@@ -81,7 +81,7 @@ const questions = [
         ]
     },
     {
-        question: "Two powerful figures, one representing the Sun and the other the Moon, stand in eternal opposition. Which pair of deities reflects this cosmic duality?",
+        question: "10. Two powerful figures, one representing the Sun and the other the Moon, stand in eternal opposition. Which pair of deities reflects this cosmic duality?",
         answer: [
             {text: "Leona and Diana", correct: true},
             {text: "Zeus and Hera", correct: false},
