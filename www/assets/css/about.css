@@ -1,0 +1,55 @@
+body {
+    background-color: #141530;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    margin: 0 auto;
+    color: white;
+    padding-bottom: 0; 
+}
+
+.intro h1 {
+    margin: 0;
+}
+
+.intro p {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.keplian {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px; 
+    color: white;
+}
+
+.kepliantxt {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.kepliantxt p{
+    font-size: 18px;
+}
+
+.keplianimg {
+    flex: 1;
+    display: flex;
+}
