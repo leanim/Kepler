@@ -1,7 +1,7 @@
 <?php
 require_once 'database.php';
 $db = Database::getInstance()->getConnection();
-$search = $_GET['q'] ?? '';
+$search = $_GET[''q] ?? '';
 
 $stmt = $db->prepare("SELECT * FROM planets WHERE name LIKE ?");
 $stmt->execute(["%$search%"]);
@@ -21,19 +21,7 @@ $planets = $stmt->fetchAll();
 </head> 
 
 <body>
-<header>
-        <a href="index.html" class="logo">Kepler</a>
-    
-        <nav class="header">
-            <ul class="menu">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="search.php">Search</a></li>
-                <li><a href="contact.php">Contact</a></li>
-                <li><a href="login.php">Login</a></li>
-            </ul>
-        </nav>
-    </header>
+<?php include 'header.php'; ?>
     <section>
         <h1>SEARCH</h1> 
         <form method="get">

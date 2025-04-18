@@ -112,7 +112,7 @@ function showQuestion(){
     let currentQuestion = questions[currentQuestionIndex];
     questionElement.innerHTML = currentQuestion.question;
 
-    currentQuestion.answer.forEach((ans, index) => {
+    currentQuestion.answer.forEach((ans) => {
         const button = document.createElement("button");
         button.innerHTML = ans.text;
         button.classList.add("btn");
